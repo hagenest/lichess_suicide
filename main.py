@@ -36,7 +36,7 @@ def is_loss(png, username):
                 return True
             elif png['winner'] == 'black' and png["players"]['black']["user"]["name"] == username:
                 return True
-def main:
+def main():
     games = []
     while True:
         new_games = get_new_games('spongeboy_ahoy', games)
