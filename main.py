@@ -36,14 +36,17 @@ def is_loss(png, username):
                 return True
             elif png['winner'] == 'black' and png["players"]['black']["user"]["name"] == username:
                 return True
+def main:
+    games = []
+    while True:
+        new_games = get_new_games('spongeboy_ahoy', games)
+        games += new_games
+        print(games)
+        for game in new_games:
+            if is_loss(game, 'spongeboy_ahoy'):
+                #print("deleted something")
+                print("Deleted: {}".format(delete_random_file()))
+        sleep(60)
 
-games = []
-while True:
-    new_games = get_new_games('spongeboy_ahoy', games)
-    games += new_games
-    print(games)
-    for game in new_games:
-        if is_loss(game, 'spongeboy_ahoy'):
-            #print("deleted something")
-            print("Deleted: {}".format(delete_random_file()))
-    sleep(60)
+if __name__=="__main__":
+    main()
