@@ -30,8 +30,8 @@ def get_new_games(username, games):
 
 def is_loss(png, username):
     """Check if a game is a loss."""
-    if "ai" not in str(png):
-        if png["status"] != "draw" and png["status"] != "timeout" and png["status"] != "stalemate" and png["status"] != "outoftime":
+    if "user" in png["players"]['white'] and "user" in png["players"]['black']:
+        if png["status"] not in ["draw", "timeout", "stalemate", "outoftime"]:
             if png['winner'] == 'white' and png["players"]['white']["user"]["name"] == username:
                 return True
             elif png['winner'] == 'black' and png["players"]['black']["user"]["name"] == username:
