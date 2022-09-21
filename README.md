@@ -13,9 +13,11 @@ This program is not a joke and should be used on any machine where you store imp
 To use this program, you will need to have [Python 3](https://www.python.org/) installed on your machine.
 
 1. Clone this repository.
+2. Create a virtualenv with `virtualenv env`
+3. Install dependencies with `pip install requirements.txt`
+4. Edit the code in main.py to feature your own username.
 2. Run `python3 main.py` in the repository's root directory.
-3. Follow the prompts.
 
 ## License
 
-This project was (for some reason) licensed under the BSD 3-Clause License - see the (for now non-existent) LICENSE file for details.
+This project is licensed under the MIT-License.
