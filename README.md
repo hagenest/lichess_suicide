@@ -6,7 +6,7 @@ This program is inspired by the [Suicide-Linux](https://github.com/tiagoad/suici
 
 ## Disclaimer
 
-This program is not a joke and should be used on any machine where you store important data. Use on our risk!
+This program is not a joke and shouldn't be used on any machine where you store important data. Use on our risk!
 
 ## Usage
 
