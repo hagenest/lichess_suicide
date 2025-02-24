@@ -4,6 +4,10 @@ A Python program that deletes a random file on your PC every time you blunder on
 
 This program is inspired by the [Suicide-Linux](https://github.com/tiagoad/suicide-linux) project.
 
+## Challenges
+
+Since I started using only immutable distros, this is much less fun 😂
+
 ## Disclaimer
 
 This program is not a joke and should be used on any machine where you store important data. Use on our risk!
